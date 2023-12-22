@@ -1,3 +1,53 @@
 .App {
-  text-align: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.MainCard {
+    display: flex;
+}
+
+.ResultCard,
+.SummaryCard {
+    flex: 1; /* Make each card take up equal space within MainCard */
+}
+
+.ResultCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background: linear-gradient(to top, hsla(241, 81%, 54%, 1), hsla(252, 100%, 67%, 1));
+}
+
+.Circle {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to top, hsla(241, 72%, 46%, 1), hsla(256, 72%, 46%, 1));
+}
+
+.SummaryCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.Reaction,
+.Memory,
+.Verbal,
+.Visual {
+    display: flex;
+    gap: 15px;
+    padding-right: 15px;
+}
+
+.Reaction {
+    gap: 10px;
 }
