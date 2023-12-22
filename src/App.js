@@ -22,22 +22,22 @@ function App() {
                     <h1>Summary</h1>
                     <div className="Areas">
                         <Card className="Reaction">
-                            <img src={reaction}/>
+                            <img alt="Reaction icon" src={reaction}/>
                             <p>Reaction</p>
                             <p>80/100</p>
                         </Card>
                         <Card className="Memory">
-                            <img src={memory}/>
+                            <img alt="Memory icon" src={memory}/>
                             <p>Memory</p>
                             <p>92/100</p>
                         </Card>
                         <Card className="Verbal">
-                            <img src={verbal}/>
+                            <img alt="Verbal Icon" src={verbal}/>
                             <p>Verbal</p>
                             <p>61/100</p>
                         </Card>
                         <Card className="Visual">
-                            <img src={visual}/>
+                            <img alt="Visual icon" src={visual}/>
                             <p>Visual</p>
                             <p>72/100</p>
                         </Card>
