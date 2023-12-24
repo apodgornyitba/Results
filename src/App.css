@@ -95,7 +95,7 @@
 }
 
 .ContinueButton:hover {
-    background: linear-gradient(to top, hsla(241, 81%, 54%, 1), hsla(252, 100%, 67%, 1));
+    background: linear-gradient(to top, hsl(241, 81%, 54%), 80%, hsl(252, 100%, 67%));
     transition: background 0.3s ease; /* Ensure a smooth transition on hover and out of hover */
 }
 
