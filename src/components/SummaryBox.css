@@ -1,0 +1,26 @@
+.SummaryBox {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 15px;
+    max-height: 55px;
+}
+
+.Category {
+    padding-right: 80px;
+}
+
+.Score {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+span {
+    font-weight: bold;
+    flex-grow: 1;
+}

@@ -8,6 +8,8 @@
 
 .MainCard {
     display: flex;
+    max-height: 450px;
+
 }
 
 .ResultCard,
@@ -18,36 +20,87 @@
 .ResultCard {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 300px;
-    background: linear-gradient(to top, hsla(241, 81%, 54%, 1), hsla(252, 100%, 67%, 1));
+    width: 350px;
+    background: linear-gradient(to top, hsl(241, 81%, 54%), 80%, hsl(252, 100%, 67%));
+}
+
+.ResultCard h1{
+    color: white;
+    align-items: center;
+    font-size: 55px;
+}
+
+.ResultCard h2{
+    color: white;
+}
+
+.great{
+    margin-top: 5px;
+}
+
+.ResultCard h4{
+    color: rgba(173, 173, 173, 1);
+}
+
+.MessageBox{
+    margin-bottom: 30px;
+    max-width: 250px;
+}
+
+.ResultCard h6{
+    color: rgba(173, 173, 173, 0.7);
+    align-items: center;
+    margin-top: -40px;
 }
 
 .Circle {
-    width: 150px;
-    height: 150px;
-    background: linear-gradient(to top, hsla(241, 72%, 46%, 1), hsla(256, 72%, 46%, 1));
+    width: 160px;
+    height: 160px;
+    background: linear-gradient(to top, hsl(241, 81%, 54%), 60%, hsla(256, 72%, 46%, 1));
 }
 
 .SummaryCard {
-    display: flex;
+    display: flex; /* Enable flexbox layout */
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: center; /* Align items to the left */
     width: 100%;
-    margin-left: 20px;
+    margin-left: 40px;
+    /*margin-right: 40px;*/
+    margin-bottom: 20px;
 }
 
-.Reaction,
-.Memory,
-.Verbal,
-.Visual {
+.SummaryCard h2 { /* Adjust heading margins */
+    margin-left: 0;
+}
+
+.Areas{
+    margin-bottom: 40px;
+}
+
+.Buttons{
     display: flex;
-    gap: 15px;
-    padding-right: 15px;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 20px;
 }
 
-.Reaction {
-    gap: 10px;
+.ContinueButton {
+    width: 100%;
+    height: 50px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background 0.3s ease; /* Smooth transition effect */
+}
+
+.ContinueButton:hover {
+    background: linear-gradient(to top, hsla(241, 81%, 54%, 1), hsla(252, 100%, 67%, 1));
+    transition: background 0.3s ease; /* Ensure a smooth transition on hover and out of hover */
+}
+
+
+.ContinueButton p {
+    color: white; /* Add text color */
+    font-size: 18px;
 }
