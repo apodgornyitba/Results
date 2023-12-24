@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Results/static/css/main.f18817b3.css",
+    "main.js": "/Results/static/js/main.a3aef587.js",
+    "static/js/468.49618f42.chunk.js": "/Results/static/js/468.49618f42.chunk.js",
+    "static/media/HankenGrotesk-VariableFont_wght.ttf": "/Results/static/media/HankenGrotesk-VariableFont_wght.d642a5d85689aa7d33db.ttf",
+    "static/media/HankenGrotesk-Medium.ttf": "/Results/static/media/HankenGrotesk-Medium.234bf52fb6d6a56a561d.ttf",
+    "static/media/HankenGrotesk-ExtraBold.ttf": "/Results/static/media/HankenGrotesk-ExtraBold.97e81bf3b3e87ffcef41.ttf",
+    "static/media/HankenGrotesk-Bold.ttf": "/Results/static/media/HankenGrotesk-Bold.1161826a8f452bc76b77.ttf",
+    "static/media/icon-memory.svg": "/Results/static/media/icon-memory.22a9e0501e58960f3c349cd96fcf108f.svg",
+    "index.html": "/Results/index.html",
+    "static/media/icon-visual.svg": "/Results/static/media/icon-visual.61fc2697d5094b6e396276b1a1597c86.svg",
+    "static/media/icon-verbal.svg": "/Results/static/media/icon-verbal.cc1204a0b0559da591a3ea6e99c5cf50.svg",
+    "static/media/icon-reaction.svg": "/Results/static/media/icon-reaction.0c1d6b98b4559ba72276d9ceda14692d.svg",
+    "main.f18817b3.css.map": "/Results/static/css/main.f18817b3.css.map",
+    "main.a3aef587.js.map": "/Results/static/js/main.a3aef587.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f18817b3.css",
+    "static/js/main.a3aef587.js"
+  ]
+}
