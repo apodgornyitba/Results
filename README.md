@@ -7,7 +7,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 ## Table of contents
 
 - [The challenge](#the-challenge)
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshots)
 - [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
