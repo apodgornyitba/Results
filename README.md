@@ -12,8 +12,6 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 - [Built with](#built-with)
 - [Author](#author)
 
-## Overview
-
 ### The challenge
 
 Users should be able to:
